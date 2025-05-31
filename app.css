@@ -511,8 +511,8 @@ a.movie-item:hover {
 }
 
 footer.section {
-    margin-top: 80px;
-    padding-bottom: 80px;
+    margin-top: 30px;
+    padding-bottom: 30px;
     position: relative;
     background-color: var(--box-bg);
 }
@@ -533,16 +533,16 @@ footer a.logo:hover {
 .social-list {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .social-item {
-    --size: 30px;
+    --size: 15px;
     height: var(--size);
     width: var(--size);
     display: grid;
     place-items: center;
-    border-radius: 50%;
+    border-radius: 30%;
     background-color: var(--text-color);
     color: var(--main-color);
 }
@@ -553,11 +553,11 @@ footer a.logo:hover {
 }
 
 .social-item ~ .social-item {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 footer .content {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .footer-menu {
@@ -598,11 +598,11 @@ footer .content {
 
 @media only screen and (max-width: 850px) {
     html {
-        font-size: 12px;
+        font-size: 4px;
     }
 
     .container {
-        padding: 0 15px;
+        padding: 0 9px;
     }
 
     .hero-slide-item {
@@ -611,10 +611,10 @@ footer .content {
     }
 
     .item-content-wraper {
-        width: 100%;
-        height: 100%;
-        padding-bottom: 20px;
-        padding-right: 5rem;
+        width: 50%;
+        height: 50%;
+        padding-bottom: 10px;
+        padding-right: 2rem;
         background-color: rgba(0, 0, 0, 0.2);
     }
 
@@ -623,7 +623,7 @@ footer .content {
     }
 
     .hero-slide-item img {
-        height: 100%;
+        height: 50%;
     }
 
     .item-content-title {
@@ -637,18 +637,18 @@ footer .content {
     .nav-menu {
         /* display: none; */
         position: absolute;
-        top: 100%;
-        left: -100%;
+        top: 50%;
+        left: -50%;
         background-color: #000000;
         flex-direction: column;
-        width: 80%;
-        height: 100vh;
-        padding: 20px;
+        width: 30%;
+        height: 40vh;
+        padding: 10px;
         transition: 0.3s ease-in-out;
     }
 
     .nav-menu li {
-        margin: 10px 30px;
+        margin: 3px 10px;
     }
 
     .nav-menu.active {
